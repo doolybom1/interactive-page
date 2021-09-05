@@ -6,3 +6,7 @@ input[type="text"] {
 input[type="password"] {
   border: 1px solid red;
 }
+
+i.fa-android {
+  font-size: 100px;
+}
