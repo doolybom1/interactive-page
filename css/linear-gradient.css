@@ -1,0 +1,37 @@
+div {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 50px;
+}
+
+/* 아래쪽방향 */
+div:nth-of-type(1) {
+  background: linear-gradient(to bottom, blue, green);
+}
+
+/* 위쪽방향 */
+div:nth-of-type(2) {
+  background: linear-gradient(to top, blue, green);
+}
+
+/* 오른쪽방향 */
+div:nth-of-type(3) {
+  background: linear-gradient(to right, blue, green);
+}
+
+/* 왼쪽방향 */
+div:nth-of-type(4) {
+  background: linear-gradient(to left, blue, green);
+}
+
+/* 45도방향 */
+div:nth-of-type(5) {
+  background: linear-gradient(45deg, blue, green);
+}
+
+/* 타원모양 */
+div:nth-of-type(6) {
+  background: radial-gradient(blue, green);
+}
